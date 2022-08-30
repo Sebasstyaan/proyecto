@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+body{
+    font-family: sans-serif;
+    padding: 0px 0px 0px;
+    
+}
+
+.header{
+    background-color: #2da3df;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 20;
+} 
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+  
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+  
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    line-height: 80px;
+}  
+  
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+} 
+  
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+  
+.nav-menu-link:hover, .nav-menu-link_active{
+    background-color: #CE49BF;
+    transition: 0.5s;
+}
+  
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 300px;
+}
+  
+.vetlogo{
+    
+    width: 120px;
+    height: 120px;
+    border-radius: 50px;
+    margin-left: 80px;
+}
+  
+.toggle{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+    cursor: pointer;
+}
+.nav-menu-link::before {
+    content: '🐾';
+}
+  
+/* Carrusel*/
+  
+.itemcarrusel{
+    height: 100%;
+    position: relative;
+    padding-top: 80px;
+}
+
+.tarjetacarrusel{
+    height: 100%;
+}
+
+.flechascarrusel{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+i{
+    font-size: 50px;
+    color: white;
+    
+}
+#conteitemscarrusel{
+    display: grid;
+    position: relative;
+    height: 800px;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    top: 10px;
+    border-radius: 50px;
+}
+
+#contepuntos > a{
+    color: black;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.contenedorquienessomos{
+    display: grid;
+    position: relative;
+    justify-content: center;
+    color: #CE49BF;
+}
+.mision {
+    display: flex;
+    position: relative;
+    left: -400px;
+    color: black;
+}
+.vision {
+    display: flex;
+    position: relative;
+    top: -20px;
+    right: -400px;
+    color: black;
+}
+  
+.tienda{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: #CE49BF;
+} 
+.textotienda {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+  
+.servicios{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: #CE49BF;
+}
+.textoservicios{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.contactenos{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: #CE49BF;
+}
+.textocontactenos{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    
+}
+footer {
+    background-color: #2da3df;
+    
+    
+}
+.nombredoctora{
+    display: flex;
+    justify-content: center;
+}
+.tarjetaprofesional{
+    width: 5%;
+    height: 50%;
+    margin-left: 650px;
+
+}
+.direccion {
+    width: 12%;
+    height: 50%;
+    margin-top: -50px;
+    margin-left: 50px;
+
+}
+.nav-footer {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+} 
+.nav-footer-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+.footer-link{
+    color: white;
+    text-decoration: none;
+}
+.piepagina {
+    width: 100%%;
+    margin-top: 50px;
+    margin-left: 10px;
+    
+}
+
+.facebook{
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.textofacebook{
+    width: 22%;
+    margin-top: -30px;
+    margin-left: 150px;
+}
+.whatsapp{
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.tik-tok{
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.instagram{
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.gmail{
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+hr {
+    margin-top: 30PX;
+    border: 0;
+    height: 12PX;
+    box-shadow: inset 0 12px 12px -12px #167BAC;
+}
+  
+  @media (max-width: 768px){
+    body{
+      padding-top: 70px;
+    }
+  
+    .header{
+      height: 60px;
+    }
+  
+    .vetlogo{
+      width: 120px;
+      height: 120px;
+      border-radius: 50px;
+      margin-left: 80px;
+    }
+  
+    .nav-menu{
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      background-color:#F190B7;
+      position: fixed;
+      left: 0;
+      top: 60px;
+      width: 100%;
+      padding: 20px 0;
+      height: 100%;
+      overflow-y:auto;
+      left: 100%;
+      transition: left 0.5s;
+    }
+  
+    .nav-menu-item{
+      line-height: 70px;
+    }
+    .nav-menu-link:hover, .nav-menu-link_active{
+      background: none;
+      color: #A63EC5;
+    }
+  
+    .toggle{
+      display: block;
+    }
+  
+    .nav-menu_visible{
+      left: 0;
+    }
+  
+  }
